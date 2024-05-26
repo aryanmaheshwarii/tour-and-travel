@@ -1,0 +1,25 @@
+.about-container{
+    padding: 0 0 2em 0;
+}
+
+.container{
+    margin: 4em 6em 0 6em;
+}
+
+.about-container h1{
+    font-size: 3em;
+    text-shadow: 2px 4px 7px lightgray;
+    text-align: start;
+    padding-bottom: 0.3em;
+}
+
+.about-container p{
+    text-align: start;
+}
+
+@media screen and (max-width: 850px) {
+    .container{
+        margin: 4em 2em 0 2em;
+    }
+    
+}

@@ -1,0 +1,63 @@
+.t-card{
+    border: 2px solid lightgrey;
+    padding: 1em;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1em;
+    box-shadow: 3px 5px 6px rgb(233, 228, 228);
+    cursor: pointer;
+    text-align: start;
+}
+
+.t-card h2{
+    margin: 1em 0 0.3em 0;
+    font-size: 1.5em;
+    text-shadow: 2px 4px 4px rgb(197, 195, 195);
+}
+
+.t-image{
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.t-image img{
+    height: 100%;
+    height: 100%;
+    transition: 0.5s ease-in-out;
+}
+
+.t-image:hover img{
+    transform: scale(1.4);
+}
+
+.trip-card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    box-shadow: -2px -4px 6px rgb(231, 229, 229);
+    border-radius: 10px;
+}
+
+.trip{
+    margin: 4em 6em;
+}
+
+.trip h1{
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgb(164, 159, 159);
+}
+
+@media screen and (max-width:850px) {
+    .trip{
+        margin: 4em 2em;
+    }
+
+    .trip-card{
+        flex-direction: column;
+    }
+
+    .t-image{
+        height: 280px;
+    }
+}
